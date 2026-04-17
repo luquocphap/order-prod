@@ -24,7 +24,7 @@ export class OrderService {
     // @EventPartern()
     this.client.emit("createEmail", orderNew)
     console.log({ createOrderDto, orderNew });
-    return 'This action adds a new order';
+    return 'This action adds a new order and will send you an email';
   }
 
   findAll() {
